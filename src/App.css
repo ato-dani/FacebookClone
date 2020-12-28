@@ -1,0 +1,13 @@
+.app {
+    background-color: #eff2f5;
+    
+    max-width: 1980px;
+    min-width: 1450px;
+    
+}
+
+.content {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}

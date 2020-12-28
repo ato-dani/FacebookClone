@@ -1,0 +1,79 @@
+.postrow {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 50px;
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+}
+.postrow_top {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.avatar {
+    padding-top: 5px;
+}
+.avatar:hover {
+    background-color: transparent;
+}
+.postinfo {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+.postinfo > p {
+    
+    margin-top: 0px;
+    font-size: small;
+    color: grey;
+    
+}
+.postinfo > h4 {
+    
+    margin-bottom: 0px;
+}
+.postinfo > h4:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.comment {
+    margin: 10px 15px;
+}
+.img > img {
+    width: 100%;
+}
+.reactions {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgrey;
+    
+}
+.post_option {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    
+    flex: 1;
+    justify-content: center;
+}
+.post_option > p {
+    margin: 10px 10px;
+    color:grey;
+}
+.post_option > .MuiSvgIcon-root {
+    color: grey;
+}
+
+.post_option:hover {
+    background-color: #eff2f5;
+    cursor: pointer;
+}
+.active > p {
+    color: blue;
+}
+.active > .MuiSvgIcon-root {
+    color: blue;
+}
+

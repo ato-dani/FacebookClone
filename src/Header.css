@@ -1,0 +1,131 @@
+.header_left > img {
+    max-width: 75px;
+    max-height: 45px;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1980px;
+    min-width: 1400px;
+    background-size: 100% 100%;
+    background-color: white;
+}
+.header_left {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.header_left > .search_field > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.header_left > .search_field {
+    display: flex;
+    padding: 10px;
+    background-color:#eff2f5;
+    margin-left: 5px;
+    border-radius: 40px;
+    align-items: center;
+    
+}
+.header_left > .search_field:hover {
+    cursor: text;
+}
+.header_middle {
+    display: flex;
+    align-items: center;
+    
+
+}
+.header_middle > .header_option {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+.header_middle > .header_option:hover > .MuiSvgIcon-root {
+    background-color: #eff2f5;
+    
+}
+.header_middle > .header_option:hover {
+    position: relative;
+    border-radius: 10px;
+    background-color: #eff2f5; 
+    padding: 0 30px;
+    cursor:pointer;
+    height: 45pt;
+    
+}
+.header_option > .MuiSvgIcon-root {
+    color: grey;
+    font-size:xx-large;
+    
+}
+#selected_page {
+    position: relative;
+    padding: 0 35px;
+    height: 45pt;
+    border-bottom: 4px solid #2e81f4;
+}
+
+#selected_page:hover {
+    background-color: transparent;
+    border-radius: 0px;
+}
+#selected_page:hover > .MuiSvgIcon-root {
+    background-color: transparent;
+    color:  #2e81f4;
+}
+#selected_page > .MuiSvgIcon-root {
+    color:  #2e81f4;
+}
+.header_right {
+    display: flex;
+    align-items: center;
+
+}
+.header_right > .header_info {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+.header_right > .header_info > .MuiAvatar-root {
+    width: 10;
+    height: 20;
+}
+.header_right > .header_option {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 50%;
+    width: 20px;
+    height: 50px;
+    background-color: #eff2f5;
+    margin: 0 5px;
+}
+.header_right > .header_option:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.header_right > .header_info:hover {
+    
+    background-color: #eff2f5;
+    cursor: pointer;
+    border-radius: 999px;
+}
+.header_info > h4 {
+    margin-left: 10px;
+}
+
+.header_right > .header_option > .MuiSvgIcon-root {
+    font-size:x-large;
+    color: black;
+}

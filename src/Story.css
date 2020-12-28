@@ -1,0 +1,17 @@
+.story {
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    margin: 0 20px;
+   
+    margin-right: 250px; 
+}
+.story >.storyrow:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.story > .storyrow {
+    padding: 0 5px;
+    transition: transform .2s;
+}

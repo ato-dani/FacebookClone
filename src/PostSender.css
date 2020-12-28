@@ -1,0 +1,86 @@
+
+.postsender {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 50px;
+    width: 65%;
+    padding: 10px 20px;
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.postsender_top {
+    display: flex;
+    flex: 1;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eff2f5;
+}
+
+.postsender_top:hover > .MuiAvatar-root {
+    cursor: pointer;
+}
+.postsender_input > input {
+    margin-left: 5px;
+    border: none;
+    outline-width: 0;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    flex: 1;
+    padding: 15px 10px;
+}
+.postsender_input > input:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+.postsender_input {
+    flex: 1;
+    display: flex;
+    
+}
+.postsender_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+}
+.livevideo {
+    display: flex;
+    align-items: center;
+    
+    padding: 0px 20px;
+}
+.livevideo:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+.photolibrary {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.photolibrary:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+.emotions {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.emotions:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+.livevideo > h4 {
+    color: grey;
+}
+.photolibrary > h4 {
+    color: grey;
+}
+.emotions > h4 {
+    color: grey;
+}
